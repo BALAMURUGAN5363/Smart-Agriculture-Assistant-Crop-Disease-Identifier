@@ -1,0 +1,37 @@
+{
+    "Corn": {
+      "Blight": {
+        "description": "Leaf blight causes elongated gray or tan lesions that dry the leaf.",
+        "treatment": "Apply fungicides during early stages.",
+        "prevention": "Use resistant hybrids and rotate crops.",
+        "Season": "Corn grows best in warm temperatures, between 60°F and 95°F (15°C to 35°C). The ideal planting time is late spring to early summer.",
+        "Fertilizer": "Apply a nitrogen-rich fertilizer (like 28-0-0) when the plants are 6-8 inches tall, and again when they reach knee-high for maximum yield.",
+        "Soil": "Corn thrives in well-drained, fertile soil with a pH between 5.8 and 7.0. Ensure the soil has plenty of organic matter."
+      },
+      "Common_Rust": {
+        "description": "Reddish-brown pustules appear on both sides of the leaf.",
+        "treatment": "Use fungicide if severe.",
+        "prevention": "Grow resistant corn varieties.",
+        "Season": "Corn grows best in warm temperatures, between 60°F and 95°F (15°C to 35°C). The ideal planting time is late spring to early summer.",
+        "Fertilizer": "Apply a nitrogen-rich fertilizer (like 28-0-0) when the plants are 6-8 inches tall, and again when they reach knee-high for maximum yield.",
+        "Soil": "Corn thrives in well-drained, fertile soil with a pH between 5.8 and 7.0. Ensure the soil has plenty of organic matter."
+      },
+      "Gray_Leaf_Spot": {
+        "description": "Rectangular gray lesions that block sunlight and reduce yield.",
+        "treatment": "Apply fungicides at tasseling if needed.",
+        "prevention": "Crop rotation and tilling can help reduce spores.",
+        "Season": "Corn grows best in warm temperatures, between 60°F and 95°F (15°C to 35°C). The ideal planting time is late spring to early summer.",
+        "Fertilizer": "Apply a nitrogen-rich fertilizer (like 28-0-0) when the plants are 6-8 inches tall, and again when they reach knee-high for maximum yield.",
+        "Soil": "Corn thrives in well-drained, fertile soil with a pH between 5.8 and 7.0. Ensure the soil has plenty of organic matter."
+      },
+      "Healthy": {
+        "description": "The corn plant is healthy with no signs of disease.",
+        "treatment": "No treatment needed.",
+        "prevention": "Continue regular care and monitoring.",
+        "Season": "Corn grows best in warm temperatures, between 60°F and 95°F (15°C to 35°C). The ideal planting time is late spring to early summer.",
+        "Fertilizer": "Apply a nitrogen-rich fertilizer (like 28-0-0) when the plants are 6-8 inches tall, and again when they reach knee-high for maximum yield.",
+        "Soil": "Corn thrives in well-drained, fertile soil with a pH between 5.8 and 7.0. Ensure the soil has plenty of organic matter."
+      }
+    }
+  }
+  
