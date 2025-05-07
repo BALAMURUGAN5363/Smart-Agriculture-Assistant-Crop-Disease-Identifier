@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agriculture - Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <div class="result-card">
+            <p><strong>Crop:</strong> {{ crop }}</p>
+            <p><strong>Disease:</strong> {{ disease }}</p>
+            <p class="confidence"><strong>Confidence:</strong> {{ conf }}%</p>
+        </div>
+
+        <h3>Disease Details</h3>
+        <ul class="info-list">
+            <li><strong>Description:</strong> {{ info.description if info.description else 'N/A' }}</li>
+            <li><strong>Treatment:</strong> {{ info.treatment if info.treatment else 'N/A' }}</li>
+            <li><strong>Prevention:</strong> {{ info.prevention if info.prevention else 'N/A' }}</li>
+        </ul>
+
+        <h3>Growing Information</h3>
+        <ul class="info-list">
+            <li><strong>Ideal Soil:</strong> {{ info.Soil if info.Soil else 'N/A' }}</li>
+            <li><strong>Best Season:</strong> {{ info.Season if info.Season else 'N/A' }}</li>
+            <li><strong>Fertilizer:</strong> {{ info.Fertilizer if info.Fertilizer else 'N/A' }}</li>
+        </ul>
+
+        <a href="/" class="back-button">Upload Another Image</a>
+    </div>
+</body>
+</html>
